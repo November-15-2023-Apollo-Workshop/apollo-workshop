@@ -142,7 +142,7 @@ type User @key(fields: "id") {
 type Review @key(fields: "id") {
   id: Int!
   body: String!
-  product: String!
+  product: Product!
   user: User!
 }
 
